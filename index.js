@@ -11,7 +11,7 @@ function onSubmit(e) {
     e.preventDefault();
     if (nameInput.value === "" || emailInput.value === "") {
         msg.classList.add("error")
-        msg.innerHTML = "Pleas enter Fileds";
+        msg.innerHTML = "Please enter Fields";
         setTimeout(() => msg.remove(), 3000);
     }
     else {
